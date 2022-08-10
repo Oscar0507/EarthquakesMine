@@ -16,8 +16,17 @@
         android:id="@+id/eq_recycler"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"  />
+    
+    <TextView
+        android:id="@+id/txt_empty_adviser"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/the_list_is_empty"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"/>
 
-
-    ></FrameLayout>
+    </FrameLayout>
 
 </layout>
